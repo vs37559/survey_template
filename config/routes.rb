@@ -8,5 +8,6 @@ Rails.application.routes.draw do
     get :question_selection
     get :question_mcq
     get :question_tf
+    get :new_survey_popup
   end
 end

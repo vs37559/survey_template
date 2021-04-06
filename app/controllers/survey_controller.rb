@@ -23,4 +23,7 @@ class SurveyController < ApplicationController
   def question_tf
   end
 
+  def new_survey_popup
+  end
+
 end

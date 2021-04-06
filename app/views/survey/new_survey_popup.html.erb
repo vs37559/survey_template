@@ -1,0 +1,50 @@
+<div class="modal" id="exampleModal" >
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">NEW SURVEY</h5>
+        <button type="button" class="close btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <div class="form">
+          <div class="d-flex align-items-center mb-10">
+            <input type="radio" id="new-survey" name="new-survey" value="new-survey">
+            <label class="h4 mr-3" for="new-survey">Create New Survey</label>
+            <input type="radio" id="use-template" name="use-template value="use-template">
+            <label class="h4" for="use-template">Use a Template</label>
+          </div>
+          <div class="form-group">
+            <label>Survey Name*</label>
+            <input class="form-control">
+          </div>
+          <div class="form-group">
+            <label>Description</label>
+            <textarea class="form-control"> </textarea>
+          </div>
+          <div class="form-group">
+            <input type="checkbox" id="award-points" name="award-points"" value="award-points"">
+            <label class="h4" for="award-points"">Award points on survey completion</label>
+            <div class="ml-10 form-group d-flex align-items-center">
+              <input value="100" class="form-control mr-2" style="width:10%">
+              <h4 class="text-gray">points</h4>
+            </di>
+          </div>
+          <h2 class="text-primary poniter form-row">SHOW ADVANCED SETTINGS</h2>
+          <div class="mb-20">
+            <div class="form-group">
+              <input class="form-control">
+            </div>
+            <div class="form-group">
+              <label>Thank you message*</label>
+              <textarea class="form-control"></textarea>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-outline-primary">Cancel</button>
+        <button class="btn btn-primary">Create</button>
+      </div>
+    </div>
+  </div>
+</div>
