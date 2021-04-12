@@ -9,5 +9,6 @@ Rails.application.routes.draw do
     get :question_mcq
     get :question_tf
     get :new_survey_popup
+    get :survey_edit
   end
 end
