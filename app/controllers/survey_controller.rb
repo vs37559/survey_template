@@ -5,6 +5,7 @@ class SurveyController < ApplicationController
   end
 
   def survey_container
+    @type = params[:type]
   end
 
   def top_nav
