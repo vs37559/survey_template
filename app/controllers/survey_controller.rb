@@ -4,7 +4,7 @@ class SurveyController < ApplicationController
   def show
   end
 
-  def survey_el
+  def survey_container
   end
 
   def top_nav
@@ -27,6 +27,12 @@ class SurveyController < ApplicationController
   end
 
   def survey_edit
+  end
+
+  def survey_overview
+  end
+
+  def assigned_container
   end
 
 end
