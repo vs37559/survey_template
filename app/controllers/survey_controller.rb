@@ -36,4 +36,13 @@ class SurveyController < ApplicationController
   def assigned_container
   end
 
+  def recent_container
+  end
+
+  def recent_survey
+  end
+
+  def assigned_survey
+  end
+
 end

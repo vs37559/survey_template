@@ -12,5 +12,8 @@ Rails.application.routes.draw do
     get :survey_edit
     get :survey_overview
     get :assigned_container
+    get :recent_container
+    get :recent_survey
+    get :assigned_survey
   end
 end
