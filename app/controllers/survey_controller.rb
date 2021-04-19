@@ -27,7 +27,7 @@ class SurveyController < ApplicationController
   def new_survey_popup
   end
 
-  def survey_edit
+  def survey_details
   end
 
   def survey_overview

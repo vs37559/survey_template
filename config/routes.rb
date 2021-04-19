@@ -9,7 +9,7 @@ Rails.application.routes.draw do
     get :question_mcq
     get :question_tf
     get :new_survey_popup
-    get :survey_edit
+    get :survey_details
     get :survey_overview
     get :assigned_container
     get :recent_container
