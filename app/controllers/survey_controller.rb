@@ -45,4 +45,10 @@ class SurveyController < ApplicationController
   def assigned_survey
   end
 
+  def details_top_section
+  end
+
+  def details_main_section
+  end
+
 end
