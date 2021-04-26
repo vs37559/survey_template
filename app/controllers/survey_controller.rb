@@ -28,6 +28,8 @@ class SurveyController < ApplicationController
   end
 
   def survey_details
+    @type = params[:type]
+    @survey_id = params[:survey_id]
   end
 
   def survey_overview
