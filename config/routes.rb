@@ -17,5 +17,7 @@ Rails.application.routes.draw do
     get :assigned_survey
     get :details_top_section
     get :details_main_section
+    get :all_surveys_container
+    get :survey_tr
   end
 end

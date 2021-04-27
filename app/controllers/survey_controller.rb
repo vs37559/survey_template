@@ -53,4 +53,10 @@ class SurveyController < ApplicationController
   def details_main_section
   end
 
+  def all_surveys_container
+  end
+
+  def survey_tr
+  end
+
 end
